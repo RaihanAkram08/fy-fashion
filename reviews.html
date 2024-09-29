@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reviews.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="./assets/icon-web.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./" type="image/x-icon">
+    <title>Reviews</title>
+</head>
+<body id="body">
+    <div class="loading-screen" id="loadingScreen">
+        <div id="loadingText">Loading 0%</div>
+    </div>
+    <div class="wrap-all" id="wrap-all">
+        <div class="hero-background">
+            <video playsinline src="./assets/video-hero.mp4" autoplay loop muted></video>   <!-- asset from awsmd  -->
+            <header>
+                <nav id="nav" class="nav">
+                    <a href="./index.html" class="wrap-image">
+                        <img src="./assets/logo.png" alt="Logo">  <!-- asset from canva  -->
+                    </a>
+                    <div class="item">
+                        <a href="./index.html" class="animation-border-bottom-left-right">Home</a>
+                        <a href="./reviews.html" class="animation-border-bottom-left-right">Reviews</a>
+                        <a href="./contact.html" class="animation-border-bottom-left-right">Contact Us</a>
+                    </div>
+                    <div class="sun-language-burger-menu">
+                        <div class="sun">
+                            <button>
+                                <i class="ri-sun-fill"></i>
+                            </button>
+                        </div>
+                        <div class="language">
+                            <button type="submit" class="accordion">
+                                EN <i class="ri-arrow-down-s-line icon-row"></i>
+                            </button>
+                            <button type="submit" class="panel">
+                                IND
+                            </button>
+                        </div>
+                        <div class="burger-menu"><i class="ri-menu-4-line" id="menu"></i></div>
+                    </div>
+                </nav>
+                <div class="header-content">
+                    <div class="header-content-left">
+                        <div class="teks">
+                            <h1>WE CREATE</h1>
+                            <h1><i>A</i>WESOME</h1>
+                            <h1 id="teksEffect"></h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eum quidem doloribus iste quas quam consectetur ad iure eaque illo, fuga, at similique vel eligendi, neque totam esse amet cumque!</p>
+                        </div>
+                        <div class="cta">
+                            <button type="submit">
+                                Explore More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header-content-right-wrap-a-mobile-tablet">
+                        <i class="ri-close-line" id="close"></i>
+                        <a href="./index.html" class="animation-border-bottom-left-right">Home</a>
+                        <a href="./reviews.html" class="animation-border-bottom-left-right">Reviews</a>
+                        <a href="./contact.html" class="animation-border-bottom-left-right">Contact Us</a>  
+                    </div>
+                    <div class="header-content-right">
+                        <div class="header-content-right-wrap-a" id="header-content-right-wrap-a">
+                            <a href="#swiper-unggulan">Brand Choice</a>
+                            <a href="#pants">Pants</a>
+                            <a href="#shirt">Shirt</a>
+                            <a href="#jacket">Jacket</a>   
+                            <a href="#casual">Casual</a>  
+                        </div>
+                        <div class="wrap-video">
+                            <video playsinline src="./assets/video-header-right.mp4" loop autoplay muted></video>  <!-- asset from uniqlo -->
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <h1><span></span> BRAND CHOICE <span></span></h1>
+
+        <div class="new" id="new">
+    
+    
+            <div class="swiper unggulan" id="swiper-unggulan">
+    
+                <div class="swiper-wrapper">
+    
+                    <div class="swiper-slide box">
+                        <img src="./assets/aero.png" alt="">
+                        <div class="content">
+                            <h3>Aerostreet T Shirt Aerostreet Hitam Kaos T-Shirt Tshirt AAAAA</h3>
+                            <h4>Rp69.900</h4>
+                            <a href="#" class="btn">Beli Sekarang</a>
+    
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./assets/dior-cloth.png" alt="">
+                        <div class="content">
+                            <h3>Christian Dior Couture Hooded Sweatshirt</h3>
+                            <h4>Rp 41.000.000</h4>
+                            <a href="#" class="btn">Beli Sekarang</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./assets/eiger-cloth.png" alt="">
+                        <div class="content">
+                            <h3>X SHIELD QUILTED SHIRT</h3>
+                            <h4>Rp469.000</h4>
+                            <a href="#" class="btn">Beli Sekarang</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./assets/giorgio.png" alt="">
+                        <div class="content">
+                            <h3>Silk shirt with jacquard stripes</h3>
+                            <h4>Rp22.611.875</h4>
+                            <a href="#" class="btn">Beli Sekarang</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./assets/gucci-cloth.png" alt="">
+                        <div class="content">
+                            <h3>GG cotton jersey jacquard polo shirt</h3>
+                            <h4>Rp.19.359.808</h4>
+                            <a href="#" class="btn">Beli Sekarang</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./assets/hermescloth.png" alt="">
+                        <div class="content">
+                            <h3>Polo shirt with pocket</h3>
+                            <h4>Rp.18.527.941</h4>
+                            <a href="#" class="btn">Beli Sekarang</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./assets/lv.png" alt="">
+                        <div class="content">
+                            <h3>Crystal Embellished Cotton T-Shirt</h3>
+                            <h4>Rp.39.500.000</h4>
+                            <a href="#" class="btn">Beli Sekarang</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./assets/ralph.png" alt="">
+                        <div class="content">
+                            <h3>Classic Fit Striped Oxford Shirt</h3>
+                            <h4>Rp.1.739.357</h4>
+                            <a href="#" class="btn">Beli Sekarang</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="./assets/uniq.png" alt="">
+                        <div class="content">
+                            <h3>AIRism T-Shirt Proteksi Sinar UV Kerah Tinggi Lengan Panjang</h3>
+                            <h4>Rp199.000</h4>
+                            <a href="#" class="btn">Beli Sekarang</a>
+                        </div>
+                    </div>
+    
+    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    
+        <div class="pants-collection" id="pants">
+            <img src="./assets/daily-wear.png" alt="">
+            <h1><span></span> Pants Collection <span></span></h1>
+            <div class="pants">
+                <div class="pants-item">
+                    <img src="./assets/pants1.jpg" alt="">
+                    <h5>NEW CRUSADER PANTS</h5>
+                    <div class="price">
+                        <del>Rp489.000</del>
+                        <p>Rp440.100</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/pants2.jpg" alt="">
+                    <h5>ATTACK TRAINER PANTS</h5>
+                    <div class="price">
+                        <del>Rp519.000</del>
+                        <p>Rp467.100</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/pants3.avif" alt="">
+                    <h5>CHINO SLIM FIT</h5>
+                    <div class="price">
+                        <del>Rp699.000</del>
+                        <p>Rp599.000</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/pants4.avif" alt="">
+                    <h5>CHINO SLIM FIT LEBAR</h5>
+                    <div class="price">
+                        <del>Rp699.000</del>
+                        <p>Rp599.000</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/pants5.avif"
+                        alt="">
+                    <h5>LV BLASON JACQUARD CLASSIC PANTS</h5>
+                    <div class="price">
+                        <p>18.700.000</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/pants6.avif"
+                        alt="">
+                    <h5>PRINTED GRAPHIC SWIM SHORT</h5>
+                    <div class="price">
+                        <p>14.100.000</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/pants7.webp" alt="">
+                    <h5>STRAIGHT CUT JEANS</h5>
+                    <div class="price">
+                        <p>14.822.000</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/pants8.webp" alt="">
+                    <h5>STRAIGHT CUT JEANS</h5>
+                    <div class="price">
+                        <p>15.881.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="shirt-collection" id="shirt">
+            <h1 data-aos="fade-up"><span></span> Exclusive Shirt Collection <span></span></h1>
+            <div class="shirt">
+                <div class="shirt-item">
+                    <img src="./assets/shirt1.webp" alt="">
+                    <h5>Cool Ocean Breeze Shirt</h5>
+                    <div class="price">
+                        <del>Rp499.000</del>
+                        <p>Rp450.000</p>
+                    </div>
+                </div>
+                <div class="shirt-item">
+                    <img src="./assets/shirt2.webp" alt="">
+                    <h5>Crisp Linen Shirt</h5>
+                    <div class="price">
+                        <del>Rp529.000</del>
+                        <p>Rp480.000</p>
+                    </div>
+                </div>
+                <div class="shirt-item">
+                    <img src="./assets/shirt3.webp" alt="">
+                    <h5>Relaxed Fit Casual Shirt</h5>
+                    <div class="price">
+                        <del>Rp709.000</del>
+                        <p>Rp609.000</p>
+                    </div>
+                </div>
+                <div class="shirt-item">
+                    <img src="./assets/shirt4.webp" alt="">
+                    <h5>Timeless Classic Shirt</h5>
+                    <div class="price">
+                        <del>Rp709.000</del>
+                        <p>Rp609.000</p>
+                    </div>
+                </div>
+                <div class="shirt-item">
+                    <img src="./assets/shirt5.webp" alt="">
+                    <h5>Elegant Designer Pants</h5>
+                    <div class="price">
+                        <p>Rp19.000.000</p>
+                    </div>
+                </div>
+                <div class="shirt-item">
+                    <img src="./assets/shirt6.webp" alt="">
+                    <h5>Trendy Beach Shorts</h5>
+                    <div class="price">
+                        <p>Rp15.000.000</p>
+                    </div>
+                </div>
+                <div class="shirt-item">
+                    <img src="./assets/shirt7.webp" alt="">
+                    <h5>Chic Slim Fit Jeans</h5>
+                    <div class="price">
+                        <p>Rp15.000.000</p>
+                    </div>
+                </div>
+                <div class="shirt-item">
+                    <img src="./assets/shirt8.webp" alt="">
+                    <h5>Retro Straight Cut Jeans</h5>
+                    <div class="price">
+                        <p>Rp16.000.000</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="brand-choice" id="jacket">
+            <h1 data-aos="fade-up"><span></span> JACKET <span></span></h1>
+            <div class="product">
+                <div class="product-card">
+                    <a href="">
+                        <div class="discount">
+                            <img src="" alt="">
+                        </div>
+                        <img src="./assets/jaket1.jpg" alt="">
+                        <div class="price">
+                            <div class="a"></div>
+                            <del>Rp750.00</del>
+                            <p>Rp179.000</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="">
+                        <div class="discount">
+                            <img src="" alt="">
+                        </div>
+                        <img src="./assets/jaket2.jpeg" alt="">
+                        <div class="price">
+                            <del>Rp750.00</del>
+                            <p>Rp179.000</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="">
+                        <div class="discount">
+                            <img src="" alt="">
+                        </div>
+                        <img src="./assets/jaket3.jpg" alt="">
+                        <div class="price">
+                            <del>Rp750.00</del>
+                            <p>Rp179.000</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="">
+                        <div class="discount">
+                            <img src="" alt="">
+                        </div>
+                        <img src="./assets/jaket4.jpg" alt="">
+                        <div class="price">
+                            <del>Rp465.00</del>
+                            <p>Rp164.000</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="">
+                        <div class="discount">
+                            <img src="" alt="">
+                        </div>
+                        <img src="./assets/jaket5.jpg" alt="">
+                        <div class="price">
+                            <del>Rp790.00</del>
+                            <p>Rp294.000</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="">
+                        <div class="discount">
+                            <img src="" alt="">
+                        </div>
+                        <img src="./assets/jaket6.jpg" alt="">
+                        <div class="price">
+                            <del>Rp475.00</del>
+                            <p>Rp174.000</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="">
+                        <div class="discount">
+                            <img src="" alt="">
+                        </div>
+                        <img src="./assets/jaket7.jpg" alt="">
+                        <div class="price">
+                            <del>Rp475.00</del>
+                            <p>Rp169.000</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+      </div>
+        <br>
+        <br>
+        <br>
+      <div class="pants-collection" id="casual">
+            <img src="./assets/smartcasual.png" alt="">
+            <h1 data-aos="fade-up"><span></span> SMART CASUAL <span></span></h1>
+            <div class="pants">
+                <div class="pants-item">
+                    <img src="./assets/casual1.png" alt="">
+                    <h5>Halfzip Casual Misty Grey</h5>
+                    <div class="price">
+                        <p>Rp 329.000,00</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/casual2.jpg" alt="">
+                    <h5>Broshirt Polo Saggy Brown</h5>
+                    <div class="price">
+                        <p>Rp 215.000,00</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/casual3.png" alt="">
+                    <h5>Broshirt Long Sage Green</h5>
+                    <div class="price">
+                        <p>Rp 249.000,00</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/casual4.png" alt="">
+                    <h5>Broshirt Long Sage Green</h5>
+                    <div class="price">
+                        <p>Rp 249.000,00</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/casual5.png"
+                        alt="">
+                    <h5>Broshirt Long Navy</h5>
+                    <div class="price">
+                        <p>Rp 249.000,00</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/casual6.png"
+                        alt="">
+                    <h5>Broshirt Long White</h5>
+                    <div class="price">
+                        <p>Rp 177.000,00</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/casual7.png" alt="">
+                    <h5>Brodo Trucker Jacket Corduroy Olive</h5>
+                    <div class="price">
+                        <p>Rp 408.000,00</p>
+                    </div>
+                </div>
+                <div class="pants-item">
+                    <img src="./assets/casual8.png" alt="">
+                    <h5>Broshirt Long Black</h5>
+                    <div class="price">
+                        <p>Rp 249.000,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+              <div class="wrap-footer">
+                <div class="footer-box">
+                  <h2>
+                    <img src="./assets/logo.png" alt="Logo" /> FYFashion
+                  </h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Corporis, perspiciatis nulla natus atque tempora fuga. Sint, fugia
+                  </p>
+                </div>
+                <div class="footer-box">
+                  <div class="link">
+                    <h2>About Us</h2>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Careers</a>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Custom Style</a>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Contact</a>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Advertise With Us</a>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Support</a>
+                  </div>
+        
+                  <div class="link">
+                    <h2>Help & FAQ</h2>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Community</a>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Terms of Service</a>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Privacy Police</a>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Write For Us</a>
+                    <a href="#" class="animation-border-bottom-left-right-footer">Contact Us</a>
+                  </div>
+                </div>
+        
+                <div class="kritik">
+                  <h2>Kritik dan Saran</h2>
+                  <form>
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                    <input type="tel" name="telephone" id="telephone" placeholder="Phone" />
+                    <textarea name="pesan" id="pesan" rows="10" cols="30" placeholder="Kritik dan Saran"></textarea>
+                  </form>
+                  <div class="wrap-button">
+                    <button>Kirim</button>
+                  </div>
+                  
+                </div>
+        
+                <div class="sosmed">
+                  <h2>Kunjungi kami di</h2>
+                  <div class="sosmed1">
+                    <a href="#"><i class="bx bxl-whatsapp"></i>+6281256803515</a>
+                    <a href="#"><i class="ri-twitter-x-fill"></i>@fyfashion</a>
+                    <a href="#"><i class="bx bxl-instagram"></i>@fyfashion</a>
+                    <a href="#"><i class="bx bx-world"></i>fyfashion.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <footer>Talent Code Catalyst &copy; All right reserved 2024</footer>
+        <button id="scrollTopBtn" onclick="scrollToTop()"><i class="ri-arrow-up-line"></i></button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts/reviews.js"></script>
+</body>
+</html>
